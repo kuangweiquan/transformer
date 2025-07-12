@@ -24,9 +24,7 @@ Transformer模型由Google团队在2017年发表的论文《Attention is All You
 4. 用归一化后的分数对Value向量加权求和
 
 **计算公式**：
-$$
-\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-$$
+![自注意力公式](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5Ctext%7BAttention%7D(Q%2CK%2CV)%20%3D%20%5Ctext%7Bsoftmax%7D%5Cleft(%5Cfrac%7BQK%5ET%7D%7B%5Csqrt%7Bd_k%7D%7D%5Cright)V)
 
 其中：
 - $Q$: 查询矩阵 (Query)
