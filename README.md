@@ -128,7 +128,6 @@ $$
 ## 4. 编码器与解码器结构
 
 ### 4.1 编码器(Encoder)
-![编码器结构](https://jalammar.github.io/images/t/transformer_encoder_decoder_stack.png)
 
 编码器由N个相同层堆叠而成（原论文N=6），每层包含：
 1. **多头自注意力层**：捕获输入序列内部依赖
